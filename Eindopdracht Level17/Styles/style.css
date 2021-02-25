@@ -1,0 +1,90 @@
+body {
+  background-color: #FFF;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+}
+
+.togglemenu {
+  margin: 0px;
+  padding: 0px;
+}
+
+.menulist {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.menulist > * {
+  display: block;
+  border: solid 1px black;
+  margin: 1px;
+  width: 150px;
+  padding: 15px 5px;
+  font-weight: 600;
+}
+.menulist__red {
+  background-color: red;
+}
+.menulist__orange {
+  background-color: orange;
+}
+.menulist__yellow {
+  background-color: yellow;
+}
+.menulist__green {
+  background-color: lime;
+}
+.menulist__aqua {
+  background-color: aqua;
+}
+.menulist__blue {
+  background-color: blue;
+}
+.menulist__indigo {
+  background-color: indigo;
+}
+.menulist__violet {
+  background-color: violet;
+}
+
+.background--red {
+  background-color: red;
+  opacity: 0.5;
+}
+
+.background--orange {
+  background-color: orange;
+  opacity: 0.5;
+}
+
+.background--yellow {
+  background-color: yellow;
+  opacity: 0.5;
+}
+
+.background--green {
+  background-color: lime;
+  opacity: 0.5;
+}
+
+.background--aqua {
+  background-color: aqua;
+  opacity: 0.5;
+}
+
+.background--blue {
+  background-color: blue;
+  opacity: 0.5;
+}
+
+.background--indigo {
+  background-color: indigo;
+  opacity: 0.5;
+}
+
+.background--violet {
+  background-color: violet;
+  opacity: 0.5;
+}/*# sourceMappingURL=style.css.map */
