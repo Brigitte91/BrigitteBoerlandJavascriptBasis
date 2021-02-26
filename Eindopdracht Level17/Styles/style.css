@@ -10,11 +10,19 @@ body {
   margin: 0px;
   padding: 0px;
 }
+.togglemenu:hover .menulist {
+  left: 0;
+}
 
 .menulist {
   list-style: none;
   padding: 0px;
   margin: 0px;
+  position: fixed;
+  left: -100%;
+  transition-property: left;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
 }
 .menulist > * {
   display: block;

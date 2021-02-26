@@ -1,7 +1,4 @@
-const buttonAlert = document.querySelector("#mybutton");
-const buttonBackground = document.querySelector("#mysecondbutton");
-const giveAlert = () => alert("Button clicked");
-const changeBackground = () => buttonBackground.parentElement.classList.toggle("red-background");
+/* const menu = document.querySelector("#togglemenu");
+const toggleMenu = () => menu.toggleAttribute("menulist");
 
-buttonAlert.addEventListener("click", giveAlert);
-buttonBackground.addEventListener("click", changeBackground);
+menu.addEventListener("onclick", toggleMenu); */
